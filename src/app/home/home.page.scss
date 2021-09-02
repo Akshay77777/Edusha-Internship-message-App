@@ -1,0 +1,73 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+h1{
+  color: #294bac;
+  padding: 10px 0 0 20px;
+  font-weight: bold;
+}
+
+span{
+
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+
+}
+
+
+h2{
+  font-weight: bold;
+}
+
+p{
+  font-size: 15px;
+  color: grey;
+ }
+
+
+ion-item{
+  border: none;
+}
+
+ion-avatar {
+  height: 10vh;
+  width: 10vh;
+}
+
+ion-avatar, img{
+  border-radius: 50%;
+}
+
+div{
+  padding-top: 15px;
+
+}
+
+ion-badge{
+  width: 4vh;
+  height: 4vh;
+  padding-top: 7px;
+  margin: 8px;
+  border-radius: 40%;
+}
+
+ion-label{
+  text-align: justify;
+  padding-left: 20px;
+  border: none;
+}
+
+ion-fab{
+  padding: 0px 35px 50px;
+}
+
+#row3 ion-icon{
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 0px 0px 5px;
+  margin: 30px;
+}
+
