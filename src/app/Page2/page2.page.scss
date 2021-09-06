@@ -1,0 +1,80 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+ion-content{
+  --background: hsl(225deg 80% 77%);
+}
+
+#item1{
+  --background: hsl(225deg 80% 77%);
+}
+
+#header-avatar{
+  margin: 10px;
+}
+
+#my-text{
+  padding-left: 50px;
+  margin: 20px;
+}
+
+ion-label{
+  padding: 10px 10px 5px 10px;
+}
+
+
+.chat-list{
+  background: #ffff;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 30px;
+}
+
+
+
+.talk-bubble {
+	margin: 28px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: hsl(217deg 100% 94%);
+}
+
+#my-talk-bubble{
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(243, 243, 229);
+  border-radius: 30px;
+}
+
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+
+
+.talktext {
+  margin: 10px;
+  text-align: center;
+}
+
+#time{
+  padding-top: 40px;
+  color: grey;
+}
+
+#item2{
+  ion-avatar{
+    margin-top: 40px;
+  }
+}
+
+#input-items ion-icon{
+    font-size: 30px;
+    padding: 10px;
+  }
+
+
