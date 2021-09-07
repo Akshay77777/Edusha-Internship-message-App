@@ -1,14 +1,15 @@
-
 *{
   margin: 0px;
   padding: 0px;
 }
+
 ion-content{
   --background: hsl(225deg 80% 77%);
 }
 
-#item1{
+#header-item{
   --background: hsl(225deg 80% 77%);
+  margin: 15px;
 }
 
 #header-avatar{
@@ -17,7 +18,7 @@ ion-content{
 
 #my-text{
   padding-left: 50px;
-  margin: 20px;
+  background: #ffff;
 }
 
 ion-label{
@@ -25,12 +26,11 @@ ion-label{
 }
 
 
-.chat-list{
+.chat-list #item1{
   background: #ffff;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
-
 
 
 .talk-bubble {
@@ -74,7 +74,5 @@ ion-label{
 
 #input-items ion-icon{
     font-size: 30px;
-    padding: 10px;
+    padding: 15px;
   }
-
-
